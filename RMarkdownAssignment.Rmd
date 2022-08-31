@@ -1,34 +1,47 @@
 ---
-  title: 'RMarkdown:  In Class Assignment'
-author: "YOUR NAME HERE"
-date: "Data 2401"
+title: 'RMarkdown:  In Class Assignment'
+author: "Christian Armstrong"
+date: "08/30/2022"
 output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE) ## this line makes all the code show! 
   ## and these lines are comments - anything behind a '#' doesn't run!
 ```
 
-
-Reminder: There is a "Markdown Help" page available in RStudio. 
-
+Reminder: There is a "Markdown Help" page available in RStudio.
 
 ## In-class Activity, Markdown
 
-Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.  
+Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.
 
-1. Make a subsection called "Wise words". Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
+# Your work here
 
-2. Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
+## Wise words
 
-3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
+"Today the crumbs, tomorrow the loaf, perhaps some day the whole damn boulangerie" - Jack Rackham(Season 3 of Black Sails) [link](https://black-sails.fandom.com/wiki/Bread)
 
-+ A _subsubheading_ with the name of the artist or author;    
-+ An example of their writing or lyrics (formatted in a *plain code block*);   
-+ A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
+## My semester
 
+| Course Number | Course Title    | Instructor's Name   |
+|---------------|-----------------|---------------------|
+| **BIOL 1312** | *Envir. Bio.*   | Suzette Mouchaty    |
+| **DATA 2401** | *Data Sci. 1*   | Katherine Shoemaker |
+| **ECO 2301**  | *Economics 1*   | Shuang Xu           |
+| **MATH 2305** | *Discrete Math* | Vien Nguyen         |
 
-Note that you can click "Knit" as you go along to see what the final results are going to look like. **Once you're done, commit the changes and push the repo back to your assignment on GitHub!**
- 
+## I recommend
+
+### Nipsey Hussle
+
+> "I got my perfect form Straight out the eye Of this perfect storm I did mine, with a perfect score Don't waste time, We just work some more Rolls Royce raps, And my tone is Forbes Ima take it overboard"
+
+1.  Blue Laces 2
+2.  Between Us ft. K Camp
+3.  4 in the Mornin
+4.  That's How I Knew
+5.  Clarity ft. Dave East and Bino Rideaux
